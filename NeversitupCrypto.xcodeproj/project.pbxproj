@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0074D91A2A612FF2002A2944 /* NeversitupCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D9192A612FF2002A2944 /* NeversitupCryptoApp.swift */; };
+		0074D91C2A612FF2002A2944 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D91B2A612FF2002A2944 /* ContentView.swift */; };
+		0074D91E2A612FF5002A2944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0074D91D2A612FF5002A2944 /* Assets.xcassets */; };
+		0074D9212A612FF5002A2944 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0074D9202A612FF5002A2944 /* Preview Assets.xcassets */; };
+		0074D92B2A612FF6002A2944 /* NeversitupCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D92A2A612FF6002A2944 /* NeversitupCryptoTests.swift */; };
+		0074D9352A612FF6002A2944 /* NeversitupCryptoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D9342A612FF6002A2944 /* NeversitupCryptoUITests.swift */; };
+		0074D9372A612FF6002A2944 /* NeversitupCryptoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D9362A612FF6002A2944 /* NeversitupCryptoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0074D9272A612FF5002A2944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0074D90E2A612FF2002A2944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0074D9152A612FF2002A2944;
+			remoteInfo = NeversitupCrypto;
+		};
+		0074D9312A612FF6002A2944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0074D90E2A612FF2002A2944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0074D9152A612FF2002A2944;
+			remoteInfo = NeversitupCrypto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0074D9162A612FF2002A2944 /* NeversitupCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeversitupCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0074D9192A612FF2002A2944 /* NeversitupCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeversitupCryptoApp.swift; sourceTree = "<group>"; };
+		0074D91B2A612FF2002A2944 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0074D91D2A612FF5002A2944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0074D9202A612FF5002A2944 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0074D9262A612FF5002A2944 /* NeversitupCryptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeversitupCryptoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0074D92A2A612FF6002A2944 /* NeversitupCryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeversitupCryptoTests.swift; sourceTree = "<group>"; };
+		0074D9302A612FF6002A2944 /* NeversitupCryptoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeversitupCryptoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0074D9342A612FF6002A2944 /* NeversitupCryptoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeversitupCryptoUITests.swift; sourceTree = "<group>"; };
+		0074D9362A612FF6002A2944 /* NeversitupCryptoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeversitupCryptoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0074D9132A612FF2002A2944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0074D9232A612FF5002A2944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0074D92D2A612FF6002A2944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0074D90D2A612FF2002A2944 = {
+			isa = PBXGroup;
+			children = (
+				0074D9182A612FF2002A2944 /* NeversitupCrypto */,
+				0074D9292A612FF5002A2944 /* NeversitupCryptoTests */,
+				0074D9332A612FF6002A2944 /* NeversitupCryptoUITests */,
+				0074D9172A612FF2002A2944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0074D9172A612FF2002A2944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0074D9162A612FF2002A2944 /* NeversitupCrypto.app */,
+				0074D9262A612FF5002A2944 /* NeversitupCryptoTests.xctest */,
+				0074D9302A612FF6002A2944 /* NeversitupCryptoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0074D9182A612FF2002A2944 /* NeversitupCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				0074D9192A612FF2002A2944 /* NeversitupCryptoApp.swift */,
+				0074D91B2A612FF2002A2944 /* ContentView.swift */,
+				0074D91D2A612FF5002A2944 /* Assets.xcassets */,
+				0074D91F2A612FF5002A2944 /* Preview Content */,
+			);
+			path = NeversitupCrypto;
+			sourceTree = "<group>";
+		};
+		0074D91F2A612FF5002A2944 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0074D9202A612FF5002A2944 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0074D9292A612FF5002A2944 /* NeversitupCryptoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0074D92A2A612FF6002A2944 /* NeversitupCryptoTests.swift */,
+			);
+			path = NeversitupCryptoTests;
+			sourceTree = "<group>";
+		};
+		0074D9332A612FF6002A2944 /* NeversitupCryptoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0074D9342A612FF6002A2944 /* NeversitupCryptoUITests.swift */,
+				0074D9362A612FF6002A2944 /* NeversitupCryptoUITestsLaunchTests.swift */,
+			);
+			path = NeversitupCryptoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0074D9152A612FF2002A2944 /* NeversitupCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0074D93A2A612FF6002A2944 /* Build configuration list for PBXNativeTarget "NeversitupCrypto" */;
+			buildPhases = (
+				0074D9122A612FF2002A2944 /* Sources */,
+				0074D9132A612FF2002A2944 /* Frameworks */,
+				0074D9142A612FF2002A2944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeversitupCrypto;
+			productName = NeversitupCrypto;
+			productReference = 0074D9162A612FF2002A2944 /* NeversitupCrypto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0074D9252A612FF5002A2944 /* NeversitupCryptoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0074D93D2A612FF6002A2944 /* Build configuration list for PBXNativeTarget "NeversitupCryptoTests" */;
+			buildPhases = (
+				0074D9222A612FF5002A2944 /* Sources */,
+				0074D9232A612FF5002A2944 /* Frameworks */,
+				0074D9242A612FF5002A2944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0074D9282A612FF5002A2944 /* PBXTargetDependency */,
+			);
+			name = NeversitupCryptoTests;
+			productName = NeversitupCryptoTests;
+			productReference = 0074D9262A612FF5002A2944 /* NeversitupCryptoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0074D92F2A612FF6002A2944 /* NeversitupCryptoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0074D9402A612FF6002A2944 /* Build configuration list for PBXNativeTarget "NeversitupCryptoUITests" */;
+			buildPhases = (
+				0074D92C2A612FF6002A2944 /* Sources */,
+				0074D92D2A612FF6002A2944 /* Frameworks */,
+				0074D92E2A612FF6002A2944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0074D9322A612FF6002A2944 /* PBXTargetDependency */,
+			);
+			name = NeversitupCryptoUITests;
+			productName = NeversitupCryptoUITests;
+			productReference = 0074D9302A612FF6002A2944 /* NeversitupCryptoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0074D90E2A612FF2002A2944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0074D9152A612FF2002A2944 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0074D9252A612FF5002A2944 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0074D9152A612FF2002A2944;
+					};
+					0074D92F2A612FF6002A2944 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0074D9152A612FF2002A2944;
+					};
+				};
+			};
+			buildConfigurationList = 0074D9112A612FF2002A2944 /* Build configuration list for PBXProject "NeversitupCrypto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0074D90D2A612FF2002A2944;
+			productRefGroup = 0074D9172A612FF2002A2944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0074D9152A612FF2002A2944 /* NeversitupCrypto */,
+				0074D9252A612FF5002A2944 /* NeversitupCryptoTests */,
+				0074D92F2A612FF6002A2944 /* NeversitupCryptoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0074D9142A612FF2002A2944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0074D9212A612FF5002A2944 /* Preview Assets.xcassets in Resources */,
+				0074D91E2A612FF5002A2944 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0074D9242A612FF5002A2944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0074D92E2A612FF6002A2944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0074D9122A612FF2002A2944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0074D91C2A612FF2002A2944 /* ContentView.swift in Sources */,
+				0074D91A2A612FF2002A2944 /* NeversitupCryptoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0074D9222A612FF5002A2944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0074D92B2A612FF6002A2944 /* NeversitupCryptoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0074D92C2A612FF6002A2944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0074D9372A612FF6002A2944 /* NeversitupCryptoUITestsLaunchTests.swift in Sources */,
+				0074D9352A612FF6002A2944 /* NeversitupCryptoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0074D9282A612FF5002A2944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0074D9152A612FF2002A2944 /* NeversitupCrypto */;
+			targetProxy = 0074D9272A612FF5002A2944 /* PBXContainerItemProxy */;
+		};
+		0074D9322A612FF6002A2944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0074D9152A612FF2002A2944 /* NeversitupCrypto */;
+			targetProxy = 0074D9312A612FF6002A2944 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0074D9382A612FF6002A2944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0074D9392A612FF6002A2944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0074D93B2A612FF6002A2944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeversitupCrypto/Preview Content\"";
+				DEVELOPMENT_TEAM = GP32K6BNMC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.NeversitupCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0074D93C2A612FF6002A2944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeversitupCrypto/Preview Content\"";
+				DEVELOPMENT_TEAM = GP32K6BNMC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.NeversitupCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0074D93E2A612FF6002A2944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GP32K6BNMC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.NeversitupCryptoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeversitupCrypto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeversitupCrypto";
+			};
+			name = Debug;
+		};
+		0074D93F2A612FF6002A2944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GP32K6BNMC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.NeversitupCryptoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeversitupCrypto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeversitupCrypto";
+			};
+			name = Release;
+		};
+		0074D9412A612FF6002A2944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GP32K6BNMC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.NeversitupCryptoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeversitupCrypto;
+			};
+			name = Debug;
+		};
+		0074D9422A612FF6002A2944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GP32K6BNMC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.NeversitupCryptoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeversitupCrypto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0074D9112A612FF2002A2944 /* Build configuration list for PBXProject "NeversitupCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0074D9382A612FF6002A2944 /* Debug */,
+				0074D9392A612FF6002A2944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0074D93A2A612FF6002A2944 /* Build configuration list for PBXNativeTarget "NeversitupCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0074D93B2A612FF6002A2944 /* Debug */,
+				0074D93C2A612FF6002A2944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0074D93D2A612FF6002A2944 /* Build configuration list for PBXNativeTarget "NeversitupCryptoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0074D93E2A612FF6002A2944 /* Debug */,
+				0074D93F2A612FF6002A2944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0074D9402A612FF6002A2944 /* Build configuration list for PBXNativeTarget "NeversitupCryptoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0074D9412A612FF6002A2944 /* Debug */,
+				0074D9422A612FF6002A2944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0074D90E2A612FF2002A2944 /* Project object */;
+}
