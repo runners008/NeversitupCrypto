@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var model = CryptoViewModel()
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world")
+            Text(model.conversionResponse?.chartName ?? "AA")
         }
         .padding()
     }
