@@ -16,9 +16,9 @@ struct HistoryListView: View {
             Text("Conversion History")
                 .font(.system(.headline))
                 .padding()
-            List(model.conversionHistory, id: \.time.updated) { data in
+            List(model.conversionHistory.reversed(), id: \.time.updated) { data in
                 HStack {
-                    Text(model.formattedDate(date: data.time.updated))
+                    Text(model.formattedDate(date: data.time.updated, format: .dateTime))
                     Spacer()
                     Text(model.conversionRate(for: currency, from: data, isCurrencyEnable: false))
                 }

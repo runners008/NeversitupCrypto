@@ -53,3 +53,15 @@ enum Currency: String, CaseIterable, Identifiable {
     
     var id: Self { self }
 }
+
+enum HistoryDisplayOption: String, CaseIterable, Identifiable {
+    case lineChart = "Chart"
+    case listView = "List"
+    
+    var id: Self { self }
+}
+
+enum AppDateFormat: String {
+    case time = "HH:mm"
+    case dateTime = "HH:mm dd MMM"
+}

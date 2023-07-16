@@ -88,7 +88,18 @@ class CryptoViewModel: ObservableObject, CryptoBusinessLogic {
         return rate
     }
     
-    func formattedDate(date: String) -> String {
+    func getBTCValue(value: Bpi, currency: Currency) -> Float {
+        switch currency {
+        case .usd:
+            return value.usd.rateFloat
+        case .gbp:
+            return value.gbp.rateFloat
+        case .eur:
+            return value.eur.rateFloat
+        }
+    }
+    
+    func formattedDate(date: String, format: AppDateFormat) -> String {
 
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "MMM dd, yyyy HH:mm:ss zzz"
@@ -98,7 +109,7 @@ class CryptoViewModel: ObservableObject, CryptoBusinessLogic {
         if let utcDate = dateFormatter.date(from: date) {
             let utcPlus7TimeZone = TimeZone(secondsFromGMT: 7 * 60 * 60)!
             dateFormatter.timeZone = utcPlus7TimeZone
-            dateFormatter.dateFormat = "HH:mm dd MMM"
+            dateFormatter.dateFormat = format.rawValue
             let convertedDate = dateFormatter.string(from: utcDate)
             return convertedDate
         } else {

@@ -12,6 +12,7 @@ struct ContentView: View {
     @ObservedObject var model = CryptoViewModel()
     @State private var inputAmount: Float = 0.00
     @State private var selectedCurrency: Currency = .usd
+    @State private var selectedHistoricView: HistoryDisplayOption = .lineChart
     
     let formatter: NumberFormatter = {
         let formatter = NumberFormatter()
@@ -23,72 +24,28 @@ struct ContentView: View {
         if let conversionModel = model.conversionResponse {
             VStack(alignment: .leading, spacing: 8.0) {
                 
-                VStack(alignment: .center) {
-                    Text("BTC Converter")
-                        .font(.system(.largeTitle))
-                    .padding()
+                TitleView()
+                
+                CurrencyPickerView(selectedCurrency: selectedCurrency) { currency in
+                    selectedCurrency = currency
                 }
                 
-                VStack {
-                    Picker("currency", selection: $selectedCurrency) {
-                        ForEach(Currency.allCases) { currency in
-                            Text(currency.rawValue.uppercased())
-                        }
-                    }
-                    .onChange(of: selectedCurrency, perform: { currency in
-                        selectedCurrency = currency
-                    })
-                    .pickerStyle(.segmented)
+                CurrentRateView(model: model, conversionModel: conversionModel, selectedCurrency: selectedCurrency)
+                
+                TextFieldAmountView(inputAmount: $inputAmount, formatter: formatter, selectedCurrency: selectedCurrency)
+                
+                ConvertAmountView(model: model, selectedCurrency: selectedCurrency, amount: inputAmount)
+                
+                HistoryPickerView(selectedHistoricView: selectedHistoricView) { view in
+                    selectedHistoricView = view
                 }
                 
-                VStack {
-                    HStack(alignment: .lastTextBaseline) {
-                        Text("Current rate:")
-                            .font(.system(.caption))
-                            .padding()
-                        Spacer()
-                        Text(model.conversionRate(for: selectedCurrency, from: conversionModel, isCurrencyEnable: true))
-                            .font(.system(size: 24, weight: .bold))
-                    }
-                    
-                    VStack(alignment: .trailing) {
-                        HStack {
-                            Spacer()
-                            Text("last update \(model.formattedDate(date: conversionModel.time.updated))")
-                                .font(.footnote)
-                        }
-                    }
+                if selectedHistoricView == .lineChart {
+                    HistoryLineChartView(model: model, selectedCurrency: selectedCurrency)
+                } else {
+                    HistoryListView(model: model, currency: selectedCurrency)
                 }
                 
-                HStack(alignment: .lastTextBaseline) {
-                    Text("Enter amount:")
-                        .font(.system(.caption))
-                        .padding()
-                    Spacer()
-                    TextField("0.00", value: $inputAmount, formatter: formatter)
-                        .multilineTextAlignment(.trailing)
-                        .keyboardType(.decimalPad)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                }
-                
-                HStack(alignment: .lastTextBaseline) {
-                    Text("BTC Amount:")
-                        .font(.system(.caption))
-                        .padding()
-                    Spacer()
-                    Text("\(model.convertToBTC(from: selectedCurrency, amount: inputAmount)) BTC")
-                        .font(.system(size: 24, weight: .bold))
-                }
-                Chart {
-                    ForEach(model.conversionHistory, id: \.time.updated) { item in
-                        LineMark(
-                            x: .value("Time", item.time.updated),
-                            y: .value("Val", item.bpi.usd.rateFloat)
-                        )
-                    }
-                }
-                
-//                HistoryListView(model: model, currency: selectedCurrency)
             }
             .padding()
         } else {
@@ -102,4 +59,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-

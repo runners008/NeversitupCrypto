@@ -17,6 +17,13 @@
 		0074D9472A613105002A2944 /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D9462A613105002A2944 /* CryptoViewModel.swift */; };
 		0074D9492A613112002A2944 /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D9482A613112002A2944 /* CryptoModel.swift */; };
 		0074D94C2A6149C7002A2944 /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D94B2A6149C7002A2944 /* HistoryListView.swift */; };
+		0074D94E2A63E154002A2944 /* HistoryLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D94D2A63E154002A2944 /* HistoryLineChartView.swift */; };
+		0074D9502A63E494002A2944 /* HistoryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D94F2A63E494002A2944 /* HistoryPickerView.swift */; };
+		0074D9522A63E6CE002A2944 /* ConvertAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D9512A63E6CE002A2944 /* ConvertAmountView.swift */; };
+		0074D9542A63E7A3002A2944 /* CurrentRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D9532A63E7A3002A2944 /* CurrentRateView.swift */; };
+		0074D9562A63E8B5002A2944 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D9552A63E8B5002A2944 /* TitleView.swift */; };
+		0074D9582A63E98F002A2944 /* CurrencyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D9572A63E98F002A2944 /* CurrencyPickerView.swift */; };
+		0074D95A2A63EB43002A2944 /* TextFieldAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D9592A63EB43002A2944 /* TextFieldAmountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		0074D9482A613112002A2944 /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
 		0074D94A2A613791002A2944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0074D94B2A6149C7002A2944 /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
+		0074D94D2A63E154002A2944 /* HistoryLineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryLineChartView.swift; sourceTree = "<group>"; };
+		0074D94F2A63E494002A2944 /* HistoryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPickerView.swift; sourceTree = "<group>"; };
+		0074D9512A63E6CE002A2944 /* ConvertAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertAmountView.swift; sourceTree = "<group>"; };
+		0074D9532A63E7A3002A2944 /* CurrentRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRateView.swift; sourceTree = "<group>"; };
+		0074D9552A63E8B5002A2944 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		0074D9572A63E98F002A2944 /* CurrencyPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPickerView.swift; sourceTree = "<group>"; };
+		0074D9592A63EB43002A2944 /* TextFieldAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAmountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +171,14 @@
 			isa = PBXGroup;
 			children = (
 				0074D91B2A612FF2002A2944 /* ContentView.swift */,
+				0074D9552A63E8B5002A2944 /* TitleView.swift */,
+				0074D9572A63E98F002A2944 /* CurrencyPickerView.swift */,
+				0074D9532A63E7A3002A2944 /* CurrentRateView.swift */,
+				0074D9592A63EB43002A2944 /* TextFieldAmountView.swift */,
+				0074D9512A63E6CE002A2944 /* ConvertAmountView.swift */,
+				0074D94F2A63E494002A2944 /* HistoryPickerView.swift */,
 				0074D94B2A6149C7002A2944 /* HistoryListView.swift */,
+				0074D94D2A63E154002A2944 /* HistoryLineChartView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -292,11 +313,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0074D9502A63E494002A2944 /* HistoryPickerView.swift in Sources */,
 				0074D94C2A6149C7002A2944 /* HistoryListView.swift in Sources */,
+				0074D9522A63E6CE002A2944 /* ConvertAmountView.swift in Sources */,
 				0074D91C2A612FF2002A2944 /* ContentView.swift in Sources */,
+				0074D95A2A63EB43002A2944 /* TextFieldAmountView.swift in Sources */,
 				0074D91A2A612FF2002A2944 /* NeversitupCryptoApp.swift in Sources */,
 				0074D9492A613112002A2944 /* CryptoModel.swift in Sources */,
+				0074D9582A63E98F002A2944 /* CurrencyPickerView.swift in Sources */,
+				0074D94E2A63E154002A2944 /* HistoryLineChartView.swift in Sources */,
+				0074D9542A63E7A3002A2944 /* CurrentRateView.swift in Sources */,
 				0074D9472A613105002A2944 /* CryptoViewModel.swift in Sources */,
+				0074D9562A63E8B5002A2944 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
