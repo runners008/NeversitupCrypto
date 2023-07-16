@@ -16,6 +16,7 @@
 		0074D9372A612FF6002A2944 /* NeversitupCryptoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D9362A612FF6002A2944 /* NeversitupCryptoUITestsLaunchTests.swift */; };
 		0074D9472A613105002A2944 /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D9462A613105002A2944 /* CryptoViewModel.swift */; };
 		0074D9492A613112002A2944 /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D9482A613112002A2944 /* CryptoModel.swift */; };
+		0074D94C2A6149C7002A2944 /* HistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0074D94B2A6149C7002A2944 /* HistoryListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0074D9462A613105002A2944 /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
 		0074D9482A613112002A2944 /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
 		0074D94A2A613791002A2944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0074D94B2A6149C7002A2944 /* HistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				0074D91B2A612FF2002A2944 /* ContentView.swift */,
+				0074D94B2A6149C7002A2944 /* HistoryListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0074D94C2A6149C7002A2944 /* HistoryListView.swift in Sources */,
 				0074D91C2A612FF2002A2944 /* ContentView.swift in Sources */,
 				0074D91A2A612FF2002A2944 /* NeversitupCryptoApp.swift in Sources */,
 				0074D9492A613112002A2944 /* CryptoModel.swift in Sources */,

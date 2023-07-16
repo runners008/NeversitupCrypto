@@ -29,15 +29,27 @@ struct Bpi: Codable {
     }
 }
 
-struct ConversionData: Codable {
+struct ConversionData: Codable, Comparable {
+    static func < (lhs: ConversionData, rhs: ConversionData) -> Bool {
+        return lhs.rateFloat < rhs.rateFloat
+    }
+    
     let code: String
     let symbol: String
     let rate: String
     let description: String
-    let rateFloat: Double
+    let rateFloat: Float
 
     enum CodingKeys: String, CodingKey {
         case code, symbol, rate, description
         case rateFloat = "rate_float"
     }
+}
+
+enum Currency: String, CaseIterable, Identifiable {
+    case usd
+    case gbp
+    case eur
+    
+    var id: Self { self }
 }
