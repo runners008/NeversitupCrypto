@@ -7,8 +7,10 @@
 
 import Foundation
 protocol CryptoBusinessLogic {
-    func fetchApi()
     func convertToBTC(from currenncy: Currency, amount: Float) -> Float
+    func conversionRate(for currency: Currency, from model: CryptoModel, isCurrencyEnable: Bool) -> String
+    func getBTCValue(value: Bpi, currency: Currency) -> Float
+    func formattedDate(date: String, format: AppDateFormat) -> String
 }
 
 class CryptoViewModel: ObservableObject, CryptoBusinessLogic {
@@ -39,7 +41,7 @@ class CryptoViewModel: ObservableObject, CryptoBusinessLogic {
         timer = nil
     }
     
-    func fetchApi() {
+    private func fetchApi() {
         let session = URLSession.shared
         let url = URL(string: urlString)!
         let task = session.dataTask(with: url) { [weak self] data, response, error in
