@@ -16,7 +16,7 @@ The NeversitupCrypto is developed using Swift and SwiftUI framework for the fron
 
 ### Development
 
-The application is written in Swift, making use of SwiftUI for the user interface. The MVVM architectural pattern is employed to ensure a structured and scalable codebase.
+The application is written in Swift, making use of SwiftUI for the user interface and XCTests for the unit test. The MVVM architectural pattern is employed to ensure a structured and scalable codebase.
 
 ### User Interface
 
